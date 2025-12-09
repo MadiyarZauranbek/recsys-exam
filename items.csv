@@ -1,51 +1,101 @@
-item_id,title,genre,price
-1,Film/Book #1,Comedy,47.38
-2,Film/Book #2,Drama,20.86
-3,Film/Book #3,Sci-Fi,7.2
-4,Film/Book #4,Horror,38.59
-5,Film/Book #5,Drama,48.08
-6,Film/Book #6,Action,34.94
-7,Film/Book #7,Comedy,12.66
-8,Film/Book #8,Drama,20.17
-9,Film/Book #9,Action,42.56
-10,Film/Book #10,Comedy,25.74
-11,Film/Book #11,Action,21.95
-12,Film/Book #12,Action,37.14
-13,Film/Book #13,Drama,22.55
-14,Film/Book #14,Action,40.33
-15,Film/Book #15,Action,29.22
-16,Film/Book #16,Sci-Fi,10.02
-17,Film/Book #17,Horror,39.4
-18,Film/Book #18,Action,7.09
-19,Film/Book #19,Horror,7.98
-20,Film/Book #20,Comedy,13.44
-21,Film/Book #21,Horror,6.98
-22,Film/Book #22,Action,19.1
-23,Film/Book #23,Horror,9.71
-24,Film/Book #24,Horror,35.88
-25,Film/Book #25,Action,49.6
-26,Film/Book #26,Drama,42.77
-27,Film/Book #27,Comedy,21.99
-28,Film/Book #28,Comedy,46.95
-29,Film/Book #29,Drama,33.56
-30,Film/Book #30,Action,6.59
-31,Film/Book #31,Comedy,43.88
-32,Film/Book #32,Horror,26.45
-33,Film/Book #33,Horror,28.76
-34,Film/Book #34,Comedy,14.78
-35,Film/Book #35,Drama,6.33
-36,Film/Book #36,Horror,42.78
-37,Film/Book #37,Drama,29.76
-38,Film/Book #38,Sci-Fi,17.72
-39,Film/Book #39,Horror,49.06
-40,Film/Book #40,Horror,49.44
-41,Film/Book #41,Drama,14.16
-42,Film/Book #42,Action,34.63
-43,Film/Book #43,Action,11.94
-44,Film/Book #44,Horror,18.8
-45,Film/Book #45,Sci-Fi,48.56
-46,Film/Book #46,Drama,28.18
-47,Film/Book #47,Action,18.47
-48,Film/Book #48,Comedy,19.46
-49,Film/Book #49,Drama,16.31
-50,Film/Book #50,Sci-Fi,12.11
+item_id,title,category,genre,price,topic_id
+1,Electronics #1 (Laptop),Electronics,Laptop,17.89,5
+2,Electronics #2 (Accessories),Electronics,Accessories,21.62,2
+3,Book #3 (Biography),Book,Biography,130.78,1
+4,Movie #4 (Comedy),Movie,Comedy,412.08,4
+5,Movie #5 (Drama),Movie,Drama,255.91,5
+6,Book #6 (Fiction),Book,Fiction,224.42,5
+7,Book #7 (Fiction),Book,Fiction,166.36,5
+8,Movie #8 (Drama),Movie,Drama,359.12,4
+9,Book #9 (Biography),Book,Biography,283.59,5
+10,Book #10 (Biography),Book,Biography,85.08,2
+11,Clothing #11 (Sport),Clothing,Sport,235.98,5
+12,Electronics #12 (Phone),Electronics,Phone,77.88,4
+13,Book #13 (Business),Book,Business,360.22,3
+14,Book #14 (Business),Book,Business,437.23,5
+15,Electronics #15 (Phone),Electronics,Phone,352.78,3
+16,Movie #16 (Action),Movie,Action,110.83,2
+17,Electronics #17 (Phone),Electronics,Phone,212.1,5
+18,Book #18 (Biography),Book,Biography,390.91,3
+19,Movie #19 (Sci-Fi),Movie,Sci-Fi,464.57,5
+20,Electronics #20 (Laptop),Electronics,Laptop,338.19,2
+21,Electronics #21 (Phone),Electronics,Phone,483.04,1
+22,Movie #22 (Comedy),Movie,Comedy,251.52,5
+23,Clothing #23 (Men),Clothing,Men,115.31,2
+24,Electronics #24 (Accessories),Electronics,Accessories,117.8,3
+25,Movie #25 (Comedy),Movie,Comedy,292.46,2
+26,Clothing #26 (Kids),Clothing,Kids,431.65,3
+27,Movie #27 (Drama),Movie,Drama,79.69,2
+28,Clothing #28 (Women),Clothing,Women,444.25,5
+29,Clothing #29 (Kids),Clothing,Kids,98.82,2
+30,Electronics #30 (Laptop),Electronics,Laptop,327.99,4
+31,Book #31 (Fiction),Book,Fiction,283.19,5
+32,Movie #32 (Sci-Fi),Movie,Sci-Fi,466.85,2
+33,Book #33 (History),Book,History,84.07,5
+34,Book #34 (History),Book,History,99.82,1
+35,Clothing #35 (Sport),Clothing,Sport,220.22,4
+36,Book #36 (History),Book,History,121.78,5
+37,Movie #37 (Comedy),Movie,Comedy,22.91,2
+38,Clothing #38 (Men),Clothing,Men,28.26,2
+39,Movie #39 (Action),Movie,Action,230.99,3
+40,Book #40 (Business),Book,Business,300.48,4
+41,Movie #41 (Comedy),Movie,Comedy,153.01,1
+42,Movie #42 (Comedy),Movie,Comedy,491.71,4
+43,Clothing #43 (Kids),Clothing,Kids,127.98,2
+44,Clothing #44 (Women),Clothing,Women,428.77,2
+45,Electronics #45 (Laptop),Electronics,Laptop,156.82,1
+46,Electronics #46 (Laptop),Electronics,Laptop,494.8,2
+47,Electronics #47 (Camera),Electronics,Camera,17.69,4
+48,Book #48 (Business),Book,Business,430.64,4
+49,Movie #49 (Sci-Fi),Movie,Sci-Fi,364.97,5
+50,Electronics #50 (Laptop),Electronics,Laptop,6.08,1
+51,Clothing #51 (Kids),Clothing,Kids,153.26,3
+52,Movie #52 (Action),Movie,Action,168.74,5
+53,Electronics #53 (Accessories),Electronics,Accessories,143.37,2
+54,Book #54 (Business),Book,Business,67.69,1
+55,Electronics #55 (Phone),Electronics,Phone,29.79,5
+56,Movie #56 (Drama),Movie,Drama,238.06,5
+57,Clothing #57 (Men),Clothing,Men,349.17,4
+58,Clothing #58 (Men),Clothing,Men,191.8,1
+59,Book #59 (Biography),Book,Biography,128.75,4
+60,Book #60 (History),Book,History,92.48,4
+61,Book #61 (Business),Book,Business,164.0,5
+62,Movie #62 (Comedy),Movie,Comedy,454.72,1
+63,Movie #63 (Sci-Fi),Movie,Sci-Fi,339.72,4
+64,Book #64 (Fiction),Book,Fiction,29.41,3
+65,Clothing #65 (Kids),Clothing,Kids,111.22,4
+66,Clothing #66 (Men),Clothing,Men,246.56,1
+67,Clothing #67 (Men),Clothing,Men,197.15,3
+68,Book #68 (Business),Book,Business,153.82,3
+69,Movie #69 (Sci-Fi),Movie,Sci-Fi,474.86,3
+70,Electronics #70 (Camera),Electronics,Camera,271.52,3
+71,Clothing #71 (Sport),Clothing,Sport,131.91,1
+72,Electronics #72 (Laptop),Electronics,Laptop,194.11,4
+73,Electronics #73 (Phone),Electronics,Phone,268.96,1
+74,Book #74 (Business),Book,Business,200.86,1
+75,Movie #75 (Comedy),Movie,Comedy,432.96,3
+76,Electronics #76 (Camera),Electronics,Camera,388.91,4
+77,Electronics #77 (Accessories),Electronics,Accessories,188.32,2
+78,Clothing #78 (Sport),Clothing,Sport,329.79,3
+79,Electronics #79 (Phone),Electronics,Phone,299.15,3
+80,Electronics #80 (Laptop),Electronics,Laptop,466.16,4
+81,Clothing #81 (Men),Clothing,Men,319.68,1
+82,Electronics #82 (Camera),Electronics,Camera,312.39,3
+83,Book #83 (Business),Book,Business,42.6,5
+84,Clothing #84 (Women),Clothing,Women,272.39,2
+85,Clothing #85 (Women),Clothing,Women,438.98,3
+86,Electronics #86 (Phone),Electronics,Phone,442.26,1
+87,Movie #87 (Sci-Fi),Movie,Sci-Fi,482.42,3
+88,Book #88 (Fiction),Book,Fiction,436.26,4
+89,Book #89 (History),Book,History,340.45,1
+90,Book #90 (Fiction),Book,Fiction,83.02,4
+91,Movie #91 (Comedy),Movie,Comedy,247.4,2
+92,Book #92 (History),Book,History,163.66,5
+93,Clothing #93 (Women),Clothing,Women,383.67,1
+94,Book #94 (Fiction),Book,Fiction,305.13,2
+95,Movie #95 (Drama),Movie,Drama,22.45,2
+96,Movie #96 (Sci-Fi),Movie,Sci-Fi,439.65,4
+97,Clothing #97 (Women),Clothing,Women,343.91,2
+98,Book #98 (Business),Book,Business,413.99,1
+99,Book #99 (Biography),Book,Biography,172.23,4
+100,Electronics #100 (Accessories),Electronics,Accessories,112.56,5
